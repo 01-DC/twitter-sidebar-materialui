@@ -1,5 +1,6 @@
 import "./sidebar.css"
 import SidebarLink from "./SidebarLink"
+import { Button } from "@material-ui/core"
 import HomeIcon from "@material-ui/icons/Home"
 import SearchIcon from "@material-ui/icons/Search"
 import NotificationsNoneIcon from "@material-ui/icons/NotificationsNone"
@@ -20,6 +21,9 @@ function Sidebar() {
             <SidebarLink text="Lists" Icon={ListAltIcon}/>
             <SidebarLink text="Profile" Icon={PermIdentityIcon}/>
             <SidebarLink text="More" Icon={MoreHorizIcon}/>
+            <Button id="tweet">
+                Tweet
+            </Button>
         </div>
     )
 }
