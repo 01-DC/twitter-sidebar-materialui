@@ -1,9 +1,7 @@
-import Sidebar from './Sidebar';
+import Sidebar from "./Sidebar"
 
 function App() {
-  return (
-    <Sidebar />
-  );
+	return <Sidebar />
 }
 
-export default App;
+export default App
